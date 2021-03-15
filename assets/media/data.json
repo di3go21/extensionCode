@@ -1,0 +1,87 @@
+{
+    "version":["[9.7.0]"],
+    "version_en_desarrollo":[
+       "[9.8.0-SNAPSHOT]"								
+    ],
+    "aviso":["Adaptaciones para la nueva normativa de IPS (Anexamos documento)",
+             "Adaptaciones a los nuevos criterios de validación del SIR (Anexamos documento)",
+             "Eliminación de dependencias de Axis 1.4"
+            ],
+    "dependencias":[],
+    "aniadido":[
+        "[API] Añadida funcionalidad búsqueda de proceso BPM a través de API.",
+        "[API] Añadida funcionalidad búsqueda de proceso BPM a través de API.",
+        "[API] Añadida funcionalidad crear proceso BPM a través de API.",
+        "[API] Añadida funcionalidad anexar documento a proceso BPM a través de API.",
+        "[TLI2] Se ha añadido el Layout LAYADDEL, y dos OLIS [OLIADDAT y OLIADDLST].",
+        "[TLI2] Se ha añadido un template al OLI [OLIBTNBS]",
+        "[TLI2] Se ha dado de alta el OLIAVISO, con su templete asociado.",
+        "[TLI2] Nueva funcionalidad Target en item de set acción.",
+        "[TLI2] Creación de modelo para ELI de listado de avisos.",
+        "Mantenimiento de atributos de vehículo y de modelo (Base7).",
+        "Filtro de coberturas y pólizas afectadas en contingencias.",
+        "Consultas de datos adicionales de anticipos de mediador.",
+        "Nuevas operaciones para anticipos de mediador.",
+        "Datos de anticipo en consulta de movimientos de cuenta de mediador.",
+        "[ZC] Añadidos argumentos en condiciones de campañas.",
+        "[ZC] Añadido nodo auxiliar para resolución de cuestionarios mediante conceptos.",
+        "[ZC] Nuevos conceptos para generar trazabilidad en Zero Code y comando de consola para activarlos.",
+        "[ZC] Añadido en argumentos de acción y conceptos el campo obligatorio.",
+        "[BOA] Nueva BOA para la carga de documento mediante el número de documento.",
+        "[BOA] Nueva BOA para obtener listas cruzadas de nodos.",
+        "[BOA] Nueva BOA para buscar clientes duplicados.",
+        "[BOA] Nueva BOA para cargar cotizaciones de un cliente.",
+        "[BOA] Nuevas BOA's para obtener atributos de usuario y alta de cliente.",
+        "[BOA] Nueva BOA para obtener un vector de estructuras desde la Zona de estructuras.",
+        "[BOA] Nuevas BOA's para tratar un nuevo tipo de datos del tipo lista de valores.",
+        "[BOA] Nuevas BOA's para crear un objeto de actividad y un nuevo proceso referenciado al objeto de actividad.",
+        "Nueva parametrización para los consejos de la pantalla de clave caducada y recuperación de clave.",
+        "Añadido orden en nodo auxiliar de ayuda de cuestionario.",
+        "Incorporación del número de riesgo (NUMERIES) en el expediente de siniestros.",
+        "Implementada funcionalidad de ocultar campos (SWHIDE) dentro de características de mediador.",
+        "Añadido retorno al siniestro desde la contingencia.",
+        "Tratamiento de mandato bancario en copago.",
+        "Tratamiento de la entidad gestora del cobro en la situación de recibo.",
+        "Añadir ficheros en pagos y recobros.",
+        "Desarrollo de copago a nivel de asegurado.",
+        "Tratamiento para histórico de oficinas.",
+        "Calcular la reserva inicial del siniestro.",
+        "Reaperturar una contingencia cerrada desde el botón 'Aperturar'.",
+        "Se añade un control para poder limitar el número máximo de sesiones concurrentes.",
+        "Se posibilita la creación de atributos temporales a nivel de servicio para una pregunta de un cuestionario."
+
+    ],
+    "cambiado":[
+        "Cambiado a público el constructor de fábrica de vehículos con estructura de datos",
+		"[TLI2] Se ha cambiado el modelo asociado del OLI [OLIADDRES].",
+        "Ahora se permite extender GrupoRecibosRemesa",
+        "En la cabecera de siniestros ahora es posible consultar a través de un link en su número la póliza siniestrada. Asimismo y si el ramo es vida riesgo aparecerá el número de contingencia asociado que también será posible consultar a través de un link en su número.",
+        "Configuración para opción para grabar concepto económico en el caso de importe cero a nivel riesgo o asegurado."
+
+    ],
+    "obsoleto":[
+        "Eliminación de referencias a la tabla no existente DDMODATO"
+    ],
+    "eliminado":[],
+    "arreglado":[
+        "Corrección consulta importes de recibo.",
+		"Corrección panel de reglas de suscripción.",
+		"En envío de SMS el teléfono es ahora el destinatario.",
+		"Consulta cuenta mediador: no recalcular IRPF",
+		"Corrección de error en asignacion de variable configuración.",
+		"Arreglado el set porcentaje de deducción desde el DataSwap.",
+		"[API] Corregida entrada de operación para que lea el alias del diccionario o del concepto.",
+		"Corregido error en buscador de pólizas en evidencias.",
+		"Formateo de la pantalla de restauración.",
+		"Redefinición de descripciones de comandos.",
+		"[TLI2] Modificado campo tipodato en nodo DATOS_CONF_AVANZADA.",
+		"Corrección en la exprotación de red en estructura jerárquica.",
+		"Arreglada sql figuras comerciales.",
+		"Arreglo en Conceptos ampliados en DRECIMRC.",
+		"Corregidos errores en el Nuevo Taller de Vida.",
+		"[BOA] Corrección en BOA de copiar un vector de estructuras a la Zona de estructuras en función de su adaptador correspondiente.",
+		"Corregido tratamiento del campo FECHCOMU sobre la tabla DPERLOPD."
+    ],
+    "seguridad":[]
+
+}
