@@ -10,14 +10,21 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:newsletter-sisnet-front-end.newsLetterFront-End"
+    "onCommand:newsletter-sisnet-front-end.newsLetterFront-End",
+    "onCommand:newsletter-sisnet-front-end.newsLetterFront-End-Form"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "newsletter-sisnet-front-end.newsLetterFront-End",
-        "title": "newsletter Front-End"
+        "title": "newsletter Front-End",
+        "category": "SISnet Newsletter Front-End"
+      },
+      {
+        "command": "newsletter-sisnet-front-end.newsLetterFront-End-Form",
+        "title": "newsletter Front-End-Form",
+        "category": "SISnet Newsletter Front-End"
       }
     ]
   },
